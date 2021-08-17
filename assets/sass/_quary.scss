@@ -1,0 +1,8 @@
+@mixin res($media) {
+  @if $media == mob-only {
+    @media (max-width: 750px) { @content; }
+  }
+  @if $media == des-only {
+    @media (min-width: 751px) { @content; }
+  }
+}

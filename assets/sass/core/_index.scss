@@ -1,0 +1,24 @@
+@import "variables/variables";
+@import "variables/colors";
+@import "functions/invalid-unit";
+@import "functions/px-to-rem";
+@import "functions/strip-unit";
+@import "functions/invalid-unit";
+@import "mixins/center";
+@import "mixins/fluid-type";
+@import "mixins/svg__mixins";
+@import "animation/animation";
+@import "utilities/u-clearfix";
+@import "utilities/u-remove-child";
+@import "utilities/u-text-hide";
+@import "utilities/u-visually--hidden";
+@import "utilities/u-word-break";
+
+a {
+  color: white;
+
+  &:hover, &:active, &:focus, &:visited {
+    color: white;
+    text-decoration: none;
+  }
+}
