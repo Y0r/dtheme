@@ -9,16 +9,16 @@ Place folder with theme into Drupal. By default: /web/themes/custom
 
 ```
 .
-├── config                            # The folder that contains configuration files.
-├── web                               # The main folder with core and custom code.
-│   ├── core                          # Drupal Core
-│   ├── modules                       # Folder with modules
-│   ├── libraries                     # Folder with JS libraries.
-│   ├── themes                        # Folder that contains custom and contrib themes.
-│   │   ├── contrib                   # Folder with contrib themes from Drupal.org and private repositories.
-│   │   └── custom                    # Folder with custom themes that extends and overrides contrib themes.
-│   │       └── dtheme                # Your custom drupal theme.
-│   └── ...                           # etc.
+├── config                     # The folder that contains configuration files.
+├── web                        # The main folder with core and custom code.
+│   ├── core                   # Drupal Core
+│   ├── modules                # Folder with modules
+│   ├── libraries              # Folder with JS libraries.
+│   ├── themes                 # Folder that contains custom and contrib themes.
+│   │   ├── contrib            # Folder with contrib themes from Drupal.org and private repositories.
+│   │   └── custom             # Folder with custom themes that extends and overrides contrib themes.
+│   │       └── dtheme         # Your custom drupal theme.
+│   └── ...                    # etc.
 └── ...
 ```
 
